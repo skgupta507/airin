@@ -1,9 +1,9 @@
 <div align="center">
   <a href="https://Aniplaynow.live" target="_blank">
-    <img src="https://github.com/Noname968/airin/blob/c39875dc6e1bc2db9d8371574a9ab3ed95ff3b93/public/icon-512x512.png" alt="Logo" width="140" height="140">
+    <img src="https://github.com/Noname968/Animedex/blob/c39875dc6e1bc2db9d8371574a9ab3ed95ff3b93/public/icon-512x512.png" alt="Logo" width="140" height="140">
   </a>
 
-  <h2 align="center">Airin</h3>
+  <h2 align="center">Animedex</h3>
 
   <p align="center">
     An open-source Anime streaming site built with Nextjs 14
@@ -48,7 +48,7 @@ Enjoy ad-free streaming and seamless progress tracking with AniList integration,
     - [ ] Mangadex
     - [ ] And some more
 
-See the [open issues](https://github.com/Noname968/airin/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/Noname968/Animedex/issues) for a full list of proposed features (and known issues).
 
 
 ## Environment Variables
@@ -88,12 +88,12 @@ MONGODB_URI="Your Mongodb connection String"
 
 Clone the project
 ```bash
-  git clone https://github.com/Noname968/airin.git
+  git clone https://github.com/Noname968/Animedex.git
 ```
 
 Go to the project directory
 ```bash
-  cd airin
+  cd Animedex
 ```
 
 Install dependencies
@@ -116,29 +116,29 @@ Move the .env file somewhere it won't bother you (optional)
 Run the image:
 ```bash
 docker run -d -it \
---name airin \
+--name Animedex \
 -p 3000:3000 \
 -v <path_of_env_file>/.env:/usr/src/app/.env \
-ghcr.io/Noname968/airin:latest
+ghcr.io/Noname968/Animedex:latest
 ```
 
 For Docker Compose:
 ```yaml
 version: "3.3"
 services:
-  airin:
-    container_name: airin
+  Animedex:
+    container_name: Animedex
     ports:
       - 3000:3000
     volumes:
       - <path_of_env_file>/.env:/usr/src/app/.env
-    image: ghcr.io/Noname968/airin:latest
+    image: ghcr.io/Noname968/Animedex:latest
 ```
 
 For at full stack deploy (db, redis, consumet api)
-See [docker-compose.yml](https://github.com/Noname968/airin/blob/master/docker-compose.yml)
+See [docker-compose.yml](https://github.com/Noname968/Animedex/blob/master/docker-compose.yml)
 
-Access Airin at ``http://localhost:3000``
+Access Animedex at ``http://localhost:3000``
 
 ## Self-Hosting Notice
 
@@ -163,7 +163,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- CONTACT -->
 ## Contact
 
-Project Link: [https://github.com/Noname968/airin](https://github.com/Noname968/airin)
+Project Link: [https://github.com/Noname968/Animedex](https://github.com/Noname968/Animedex)
 
 Discord Server: [https://discord.gg/QnbFaudJNf](https://discord.gg/QnbFaudJNf)
 

@@ -100,7 +100,7 @@ export default function Changelogs() {
                                         <div className="flex gap-3 items-center">
                                             {/* Github Icon */}
                                             <Link
-                                                href="https://github.com/Noname968/airin"
+                                                href="https://github.com/skgupta507/Animedex"
                                                 target="_blank"
                                                 className="w-5 h-5 hover:opacity-75"
                                             >
